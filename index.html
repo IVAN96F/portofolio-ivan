@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="certificates.html">Certificates</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <div class="profile-container">
+                <img src="assets/FOTO PROFILE/WhatsApp Image 2026-02-15 at 11.28.17.jpeg" alt="Profile Photo"
+                    class="profile-photo">
+            </div>
+            <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+            <p>Creative Web Developer & Designer</p>
+            <a href="projects.html" class="btn btn-primary">View My Work</a>
+        </div>
+    </header>
+
+    <section class="section-preview" id="about-preview">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate developer with a knack for building beautiful and functional websites.</p>
+            <a href="about.html" class="btn btn-secondary">Read More</a>
+        </div>
+    </section>
+
+    <section class="section-preview" id="projects-preview">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Kimia Farma -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/projects/Project rakamin based internship big data analyst kimia farma 2020-2023.png"
+                            alt="Big Data Analytics Kimia Farma">
+                    </div>
+                    <div class="project-info">
+                        <h2>Big Data Analytics Kimia Farma</h2>
+                        <p>This project involved creating a comprehensive dashboard using Google Looker Studio to
+                            visualize key performance indicators (KPIs) for Kimia Farma's business operations. The
+                            dashboard integrates data from various sources, providing insights into sales performance,
+                            customer behavior, and operational efficiency.</p>
+                        <div class="tech-stack">
+                            <span>Google Looker Studio</span>
+                            <span>Data Analytics</span>
+                            <span>Visualization</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-sm">View Dashboard</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project TAF Furniture -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="assets/projects/taf-project.png" alt="TAF Furniture">
+                    </div>
+                    <div class="project-info">
+                        <h2>Teak Abadi Furniture (TAF)</h2>
+                        <p>A premium e-commerce platform for high-quality teak furniture. Features a clean, modern
+                            design with product categories, a sleek product showcase, and an intuitive user interface
+                            (Kategori Populer section) built for ultimate brand aesthetic.</p>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/IVAN96F/TAF-PROJECT.git" target="_blank"
+                                class="btn btn-sm btn-outline">View on GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <br>
+            <div style="text-align: center;">
+                <a href="projects.html" class="btn btn-secondary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-preview" id="certificates-preview">
+        <div class="container">
+            <h2>Certificates</h2>
+            <p>Check out my certifications and achievements.</p>
+            <a href="certificates.html" class="btn btn-secondary">See Certificates</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
